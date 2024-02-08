@@ -1,6 +1,6 @@
 <?php
 
-namespace zs\spf;
+namespace zsdemo\spf;
 
 class SpfEmailManager {
     public static function sendEmail($to, $subject, $message) {

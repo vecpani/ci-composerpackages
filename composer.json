@@ -1,11 +1,11 @@
 {
-    "name": "zs/spf",
+    "name": "zsdemo/spf",
     "description": "Pomoč pri razvoju",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "zs\\spf\\": "src/"
+            "zsdemo\\spf\\": "src/"
         }
     },
     "authors": [

@@ -5,5 +5,5 @@ use zs\spf\SpfEmailManager;
  
 <p>
     Status pošiljanja e-pošte:
-    <?= zs\spf\SpfEmailManager::sendEmail('A','B','C') ?>
+    <?= zsdemo\spf\SpfEmailManager::sendEmail('a@a.com','B','C') ?>
 </p>
