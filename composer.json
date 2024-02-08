@@ -1,0 +1,31 @@
+{
+    "name": "zs/spf",
+    "description": "Pomoč pri razvoju",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "zs\\spf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gregor Zidar",
+            "email": "gregor.zidar@gzi.si"
+        }
+    ],
+    "require": {
+        "php": ">7.2.0"
+    },
+    "require-dev": {
+        "php": ">7.2.0",
+        "codeigniter4/devkit": "^1.2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    }
+}
